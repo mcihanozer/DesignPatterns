@@ -6,6 +6,7 @@
 
 // Singleton and C++ callbacks example.
 // SmileyManager is a manager class managing smileys in a game.
+// Also see: https://github.com/mcihanozer/Callbacks-and-Messaging-System
 
 #ifndef SmileyManager_hpp
 #define SmileyManager_hpp
