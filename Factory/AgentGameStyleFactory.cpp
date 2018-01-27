@@ -38,7 +38,4 @@ std::unique_ptr<AgentGameStyle> AgentGameStyleFactory::instantiate(const ePLAYIN
         default:
             return make_unique<StandardGameStyleAgent>();
     }
-    
-    
-    
 }
