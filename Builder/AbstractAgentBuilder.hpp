@@ -16,7 +16,10 @@ public:
     
     virtual ~AbstractAgentBuilder() {}
     
-    Agent* getAgent();
+    Agent* getAgent()
+    {
+        return mAgentSptr.release();
+    }
     
     // Where you will init the smart pointer
     virtual void createNewAgent() = 0;
