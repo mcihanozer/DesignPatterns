@@ -14,8 +14,7 @@
 class Agent : public Observer
 {
 public:
-    
-    
+
     Agent();
     virtual ~Agent();
 
