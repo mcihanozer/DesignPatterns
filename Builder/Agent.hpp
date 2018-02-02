@@ -10,6 +10,7 @@
 
 // OMITTED INCLUDES
 
+// An abstract (omitted codes) Agent class
 class Agent : public Observer
 {
 public:
@@ -18,18 +19,18 @@ public:
     Agent();
     virtual ~Agent();
 
-    // OMITTED CODE
+    // OMITTED CODES
     
     std::unique_ptr<AgentCharacter>& getCharacter()
     {
         return mCharacter;
     }
     
-    // OMITTED CODE
+    // OMITTED CODES
     
 protected:
     
-    // OMITTED CODE
+    // OMITTED CODES
 
     // AgentCharacter class keeps and manages the characteristic
     // specifications of an agent.
