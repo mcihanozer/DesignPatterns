@@ -11,7 +11,9 @@ public:
     BC_TankNoAction() {}
     virtual ~BC_TankNoAction() {}
     
+    // Null object pattern
     void performAction(TankAI* pAgent) override {}
+    // Null object pattern
 };
 
 #endif
